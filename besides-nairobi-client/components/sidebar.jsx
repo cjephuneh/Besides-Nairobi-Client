@@ -1,10 +1,21 @@
 import Link from 'next/link';
+import Logo from '../public/assets/shape-x1.png'
+import Image from 'next/image';
+
+
+
  const Navbar = () => {
   return (
-    <nav className="flex items-center justify-between flex-wrap bg-gray-800 p-6">
-      <div className="flex items-center flex-shrink-0 text-white mr-6">
-        <img src="/logo.png" alt="Logo" className="h-8" />
-        <span className="font-semibold text-xl tracking-tight ml-2">Conference Name</span>
+    <nav className="flex items-center justify-between space-x-8 flex-wrap bg-white shadow-lg p-6">
+      <div className="flex items-center flex-shrink-0 mr-6">
+        
+        <Image
+          src={Logo}
+          alt='logo'
+          width={50}
+          height={50}
+        />
+        
       </div>
       <div className="block lg:hidden">
         <button className="flex items-center px-3 py-2 border rounded text-gray-200 border-gray-400 hover:text-white hover:border-white">
@@ -14,39 +25,39 @@ import Link from 'next/link';
       <div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
         <div className="text-sm lg:flex-grow">
           <Link href="/">
-            <a className="block mt-4 lg:inline-block lg:mt-0 text-gray-200 hover:text-white mr-4">
+            <h1 className="block mt-4 lg:inline-block lg:mt-0 text-black hover:text-red-500  mr-4">
               Home
-            </a>
+            </h1>
           </Link>
           <Link href="/about">
-            <a className="block mt-4 lg:inline-block lg:mt-0 text-gray-200 hover:text-white mr-4">
+            <h1 className="block mt-4 lg:inline-block lg:mt-0  text-black hover:text-red-500  mr-4">
               About
-            </a>
+            </h1>
           </Link>
           <Link href="/cfp">
-            <a className="block mt-4 lg:inline-block lg:mt-0 text-gray-200 hover:text-white mr-4">
+            <h1 className="block mt-4 lg:inline-block lg:mt-0  text-black hover:text-red-500  mr-4">
               Call for Papers
-            </a>
+            </h1>
           </Link>
           <Link href="/speakers">
-            <a className="block mt-4 lg:inline-block lg:mt-0 text-gray-200 hover:text-white mr-4">
+            <h1 className="block mt-4 lg:inline-block lg:mt-0  text-black hover:text-red-500 mr-4">
               Speakers
-            </a>
+            </h1>
           </Link>
           <Link href="/schedule">
-            <a className="block mt-4 lg:inline-block lg:mt-0 text-gray-200 hover:text-white mr-4">
+            <h1 className="block mt-4 lg:inline-block lg:mt-0  text-black hover:text-red-500  mr-4">
               Schedule
-            </a>
+            </h1>
           </Link>
           <Link href="/volunteer">
-            <a className="block mt-4 lg:inline-block lg:mt-0 text-gray-200 hover:text-white mr-4">
+            <h1 className="block mt-4 lg:inline-block lg:mt-0  text-black hover:text-red-500  mr-4">
               Volunteer
-            </a>
+            </h1>
           </Link>
           <Link href="/code-of-conduct">
-            <a className="block mt-4 lg:inline-block lg:mt-0 text-gray-200 hover:text-white">
+            <h1 className="block mt-4 lg:inline-block lg:mt-0  text-black hover:text-red-500 ">
               Code of Conduct
-            </a>
+            </h1>
           </Link>
         </div>
       </div>
