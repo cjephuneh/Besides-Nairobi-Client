@@ -12,12 +12,12 @@ function Home() {
       </div>
     </div>
    
-    <div className='bg-gray-100 p-10 mr-8'>
+    <div className='bg-gray-100 p-8'>
       <h1 className='text-green-500 font-bold text-4xl mb-8'>2023 Bsides Nairobi</h1>
-      <span className='text-lg text-gray-900 font-bold mb-8'>
+      <span className='text-lg text-gray-900 font-bold mb-4'>
       ​BSides Nairobi 2023 is now officially in planning mode and the team can't be more excited. We are excited to be officially partnering with again with United States Internationa University to host our 2023 event. 
       </span>
-      <span className='text-lg text-gray-900 font-bold mb-8'>
+      <span className='text-lg text-gray-900 font-bold mb-4 block'>
         ​Watch this space and our socials for updates on this year's conference.
       </span>
       <span className='text-lg text-gray-900 font-bold mb-4 block'>
