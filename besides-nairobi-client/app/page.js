@@ -17,8 +17,8 @@ export default function Home() {
       {/* <codeofconduct/> */}
       {/* <AboutUs/> */}
       {/* <Registration/> */}
-      <Volunteer/>
-      {/* <CallForPapers/> */}
+      {/* <Volunteer/> */}
+      <CallForPapers/>
       {/* <Footer/> */}
 
       </>

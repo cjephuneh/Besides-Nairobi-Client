@@ -4,7 +4,7 @@ import Head from 'next/head'
 
 function CFP() {
   return (
-    <div>
+    <div className='items-center'>
         <div
         className="h-screen bg-cover bg-center"
         style={{
@@ -21,23 +21,28 @@ function CFP() {
             Call For Papers
           </h1>
         </div>
-        <div className='h-[500px]'>
-      <h1 className="text-red-500  text-6xl mb-10 mt-16 text-center ">
-      Want to be involved?
-        </h1>
-        <span className="ml-[250px] text-gray-500 text-[23px] leading-[42px] space-x-4 block mb-2  tracking-wide">
-        We are looking for individuals to help in a variety of areas – are you interested in lending a hand? If so, <br/>
-        <span className="ml-[259px] text-gray-500  text-[23px] leading-[42px] space-x-4 block mb-2  tracking-wide">
-        use the form below to sign-up and we'll reach out to you when the conference nears.
-        </span>
-        </span>
-        
-        <button className="bg-green-900 hover:bg-gray-800 text-white font-bold py-3 px-6 rounded ml-[750px] mt-[34px] absolute" >
+       <div className='h-[600px] '>
+        <h1 className="text-red-500  text-6xl mb-10 mt-16 text-center ">
+        2023 Call for Papers
+          </h1>
+          <span className=" text-gray-500 text-[23px] leading-[42px] space-x-4 block mb-2 items-center ml-[750px]  tracking-wide">
+          CFP is now Open
+          </span>
+
+          <span className="ml-[600px] text-gray-500  text-[23px] leading-[42px] space-x-4 mb-2 flex tracking-wide">
+          Applications close 15 August 2023 @ 9pm AEST.
+          
+          </span>
+          <span className="ml-[520px] text-gray-500  text-[23px] leading-[42px] space-x-4 mb-2 flex tracking-wide">
+          
+          Notifications will be sent to Applicants: 30 August - 5 September, 2023
+          </span>
+          <button className="bg-green-900 hover:bg-gray-800 text-white font-bold py-3 px-6 rounded ml-[755px] mt-[34px] absolute" >
             <a href="https://www.eventbrite.com/e/bsides-nairobi-2021-tickets-166005001405" className="text-gray-100 text-lg leading-none">
                 Register Now
             </a>
         </button>
-      </div>
+       </div>
       </div>
     </div>
   )
