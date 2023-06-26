@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import Sponsor from "../public/assets/shehacks.png"
-import Footer from './footer';
+import Footer from '../components/footer';
 import AfriHackon from '../public/assets/africahackon.png'
 
 function Home() {

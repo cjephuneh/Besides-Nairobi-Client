@@ -5,11 +5,6 @@ module.exports = {
     './components/**/*.{js,ts,jsx,tsx,mdx}',
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
-
-  fontFamily: {
-    sans: ['Heebo', 'sans-serif'],
-  },
-
   theme: {
     extend: {
       backgroundImage: {
