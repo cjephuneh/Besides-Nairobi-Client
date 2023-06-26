@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import Sponsor from "../public/assets/shehacks.png"
+import Footer from './footer';
 
 function Home() {
   return (
@@ -125,6 +126,7 @@ function Home() {
             </div>
           </div>
         </div>
+        <Footer/>
       </div>
       </>
     
