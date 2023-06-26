@@ -2,6 +2,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import Sponsor from "../public/assets/shehacks.png"
 import Footer from './footer';
+import AfriHackon from '../public/assets/africahackon.png'
 
 function Home() {
   return (
@@ -70,7 +71,7 @@ function Home() {
         </p>
       </div>
 
-      <div className="bg-[#2e383a]  p-12 text-white text-2xl h-[600px]">
+      <div className="bg-[#2e383a]  p-12 text-white text-2xl h-[550px]">
         <h1 className="text-4xl font-bold mb-8">What is BSides?</h1>
         <p className=" leading-7 text-white">
           The Security BSides brand is known all over the world for being a
@@ -93,41 +94,53 @@ function Home() {
         </p>
       </div>
 
-      <div class="flex flex-wrap items-center justify-center py-12">
+      <div class="flex flex-wrap items-center justify-center py-12 h-[600px]">
         <div class="w-full md:w-1/2 px-4">
-          <h2 class="text-4xl font-bold mb-8">
+          <h2 class="text-4xl font-semibold mb-6 mt-[20px] ml-8">
             2023 Sponsors/Donations/Friends
           </h2>
-          <p class="text-lg leading-7 mb-8">
+          <p class="text-xl leading-7 mb-8 ml-8 block">
             A big thank you to all the companies and individuals who have sponsored,
-            donated items and time and who have stood by us since we started in 2-19.
-              BSides Melbourne could not happen without your support.
+            donated items and time and who have stood by us since we started in 2021.
+            BSides Nairobi could not happen without your support.
+          </p>
+
+          <p class="text-xl leading-7 mb-8 ml-8 block">
+            To Help us impact the community through sponsorship 
+            
+            <span class="ml-2 font-normal">
+            <a href="#" class="text-blue-500 underline">
+            click here
+            </a>
+          </span>
           </p>
         </div>
         <div class="w-full md:w-1/2 px-4">
           <div class="flex flex-wrap justify-center">
             <div class="w-1/3 px-4 py-2">
-              <Image src={Sponsor} alt="Sponsor 1" width={80} height={50} />
+              <Image src={Sponsor} alt="Sponsor 1" width={80} height={80} />
             </div>
             <div class="w-1/3 px-4 py-2">
-              <Image src={Sponsor} alt="Sponsor 2" width={33} height={33} />
+              <Image src={Sponsor} alt="Sponsor 2" width={80} height={80} />
             </div>
             <div class="w-1/3 px-4 py-2">
-              <Image src={Sponsor} alt="Sponsor 3" width={33} height={33} />
+              <Image src={Sponsor} alt="Sponsor 3" width={80} height={80} />
             </div>
             <div class="w-1/3 px-4 py-2">
-              <Image src={Sponsor} alt="Sponsor 4" width={33} height={33} />
+              <Image src={AfriHackon} alt="Sponsor 4" width={80} height={80} />
             </div>
             <div class="w-1/3 px-4 py-2">
-              <Image src={Sponsor} alt="Sponsor 5" width={33} height={33} />
+              <Image src={AfriHackon} alt="Sponsor 5" width={80} height={80} />
             </div>
             <div class="w-1/3 px-4 py-2">
-              <Image src={Sponsor} alt="Sponsor 6" width={33} height={33} />
+              <Image src={AfriHackon} alt="Sponsor 6" width={80} height={80} />
             </div>
           </div>
         </div>
-        <Footer/>
+
+        
       </div>
+      <Footer/>
       </>
     
   );
