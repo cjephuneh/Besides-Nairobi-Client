@@ -1,20 +1,21 @@
-import Link from 'next/link';
+// import Link from 'next/link';
 import Logo from '../public/assets/shape-x1.png'
 import Image from 'next/image';
+
 
 
 
  const Navbar = () => {
   return (
     <nav className="flex items-center justify-between space-x-8 flex-wrap bg-white shadow-lg p-6">
-      <div className="flex items-center flex-shrink-0 mr-[450px]">
+      <div className="flex items-center flex-shrink-0 mr-[200px] aboslute ml-auto">
         
         <Image
           src={Logo}
           alt='logo'
           width={130}
           height={130}
-          // className='mr-[500px]'
+          className='ml-[150px]'
         />
         
       </div>
@@ -24,42 +25,42 @@ import Image from 'next/image';
         </button>
       </div>
       <div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto ">
-        <div className="text-sm lg:flex-grow">
-          <Link href="/">
+        <div className="text-lg lg:flex-grow">
+          <a href="/">
             <h1 className="block mt-4 lg:inline-block lg:mt-0 text-black hover:text-red-500  mr-4">
               Home
             </h1>
-          </Link>
-          <Link href="/about">
+          </a>
+          <a href="../app/about.js">
             <h1 className="block mt-4 lg:inline-block lg:mt-0  text-black hover:text-red-500  mr-4">
               About
             </h1>
-          </Link>
-          <Link href="/cfp">
+          </a>
+          <a href="/cfp">
             <h1 className="block mt-4 lg:inline-block lg:mt-0  text-black hover:text-red-500  mr-4">
               Call for Papers
             </h1>
-          </Link>
-          <Link href="/speakers">
+          </a>
+          <a href="/speakers">
             <h1 className="block mt-4 lg:inline-block lg:mt-0  text-black hover:text-red-500 mr-4">
               Speakers
             </h1>
-          </Link>
-          <Link href="/schedule">
+          </a>
+          <a href="/schedule">
             <h1 className="block mt-4 lg:inline-block lg:mt-0  text-black hover:text-red-500  mr-4">
               Schedule
             </h1>
-          </Link>
-          <Link href="/volunteer">
+          </a>
+          <a href="/volunteer">
             <h1 className="block mt-4 lg:inline-block lg:mt-0  text-black hover:text-red-500  mr-4">
               Volunteer
             </h1>
-          </Link>
-          <Link href="/codeofconduct">
+          </a>
+          <a href="/codeofconduct">
             <h1 className="block mt-4 lg:inline-block lg:mt-0  text-black hover:text-red-500 ">
               Code of Conduct
             </h1>
-          </Link>
+          </a>
         </div>
       </div>
     </nav>

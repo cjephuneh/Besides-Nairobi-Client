@@ -3,7 +3,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Sponsor from "../public/assets/shehacks.png"
 import Lawrence from '../public/assets/lawrence.webp'
-import Footer from './footer'
+import Footer from '../components/footer'
 
 
 function about() {
