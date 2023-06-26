@@ -55,7 +55,7 @@ import Image from 'next/image';
               Volunteer
             </h1>
           </Link>
-          <Link href="/code-of-conduct">
+          <Link href="/codeofconduct">
             <h1 className="block mt-4 lg:inline-block lg:mt-0  text-black hover:text-red-500 ">
               Code of Conduct
             </h1>
