@@ -21,7 +21,7 @@ function Archives() {
         Archives - BSides Nairobi
         </h1>
           <p class="text-2xl text-gray-500 font-semibold mb-10">
-            2019 - <a href="/conference" class="underline">Conference</a> - <a href="/speakers" class="underline">Speakers</a>
+            2022 - <a href="/conference" class="underline">Conference</a> - <a href="/speakers" class="underline">Speakers</a>
           </p>
         </div>
 

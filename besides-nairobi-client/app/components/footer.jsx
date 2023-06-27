@@ -14,14 +14,14 @@ import Link from 'next/link'
             <ul>
               <li><Link href="/"><h1 className="text-gray-400 hover:text-white">Home</h1></Link></li>
               <li><Link href="/about"><h1 className="text-gray-400 hover:text-white">About</h1></Link></li>
-              <li><Link href="/services"><h1 className="text-gray-400 hover:text-white">Services</h1></Link></li>
-              <li><Link href="/blog"><h1 className="text-gray-400 hover:text-white">Blog</h1></Link></li>
-              <li><Link href="/contact"><h1 className="text-gray-400 hover:text-white">Contact</h1></Link></li>
+              <li><Link href="/Volunteer"><h1 className="text-gray-400 hover:text-white">Volunteer</h1></Link></li>
+              <li><Link href="/CFP"><h1 className="text-gray-400 hover:text-white">CFP</h1></Link></li>
+              <li><Link href="/code-of-conduct"><h1 className="text-gray-400 hover:text-white">Code of Conduct</h1></Link></li>
             </ul>
           </div>
           <div className="w-full md:w-1/3 mb-8 md:mb-0">
             <h4 className="text-xl font-bold mb-4 text-white">Contact Us</h4>
-            <p className="text-gray-400">123 Main Street<br />Anytown, USA 12345<br />Phone: (123) 456-7890<br />Email: info@yourdomain.com</p>
+            <p className="text-gray-400">123 Main Street<br />Anytown, JUJA 12345<br />Phone: (123) 456-7890<br />Email: info@bsidesnairobi.com</p>
           </div>
         </div>
         <div className="mt-8 border-t border-gray-700 pt-8 flex flex-wrap justify-between">
