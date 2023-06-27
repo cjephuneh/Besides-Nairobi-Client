@@ -1,8 +1,10 @@
 import Head from 'next/head';
 import Image from 'next/image';
-import Sponsor from "../public/assets/shehacks.png"
-import Footer from '../components/footer';
-import AfriHackon from '../public/assets/africahackon.png'
+import Sponsor from "../../public/assets/shehacks.png"
+import Link from 'next/link';
+
+import AfriHackon from '../../public/assets/africahackon.png'
+import Footer from './footer';
 
 function Home() {
   return (
@@ -19,7 +21,7 @@ function Home() {
           <title>Welcome to Bsides Nairobi</title>
         </Head>
         <div className="flex flex-col justify-center items-center h-full">
-          <h1 className="text-4xl font-bold text-white text-center">
+          <h1 className="text-4xl font-bold text-black bg-green-600 shadow-xl text-center">
             Welcome to Bsides Nairobi
           </h1>
         </div>
@@ -50,9 +52,9 @@ function Home() {
             Volunteering Opportunities are now
           </span>
           <span class="ml-2 font-normal">
-            <a href="#" class="text-blue-500 underline">
+            <Link href="/volunteer" class="text-blue-500 underline">
               open
-            </a>
+            </Link>
           </span>
         </p>
         <p class="text-2xl text-gray-500 font-bold mb-4">
@@ -140,7 +142,7 @@ function Home() {
 
         
       </div>
-      <Footer/>
+     <Footer/>
       </>
     
   );

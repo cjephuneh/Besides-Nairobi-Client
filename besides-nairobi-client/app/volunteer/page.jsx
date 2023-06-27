@@ -1,9 +1,10 @@
 import React from 'react'
 import Head from 'next/head'
+import Footer from '../components/footer'
 
-function Registration() {
+function Volunteer() {
   return (
-         <div>
+
         <div
         className="h-screen bg-cover bg-center"
         style={{
@@ -37,9 +38,10 @@ function Registration() {
             </a>
         </button>
       </div>
+      <Footer/>
       </div>
-    </div>
+  
   )
 }
 
-export default Registration
+export default Volunteer

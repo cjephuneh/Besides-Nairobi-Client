@@ -1,20 +1,24 @@
-// import Link from 'next/link';
+import Link from 'next/link';
 import Logo from '../public/assets/shape-x1.png'
 import Image from 'next/image';
+import React from "react";
+import Layout from '../layout'
 
 
 
 
  const Navbar = () => {
   return (
+    
     <nav className="flex items-center justify-between space-x-8 flex-wrap bg-white shadow-lg p-6">
       <div className="flex items-center flex-shrink-0 mr-[200px] aboslute ml-auto">
         
         <Image
           src={Logo}
           alt='logo'
-          width={130}
-          height={130}
+          width={100}
+          height={100}
+
           className='ml-[150px]'
         />
         
@@ -26,41 +30,41 @@ import Image from 'next/image';
       </div>
       <div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto ">
         <div className="text-lg lg:flex-grow">
-          <a href="/">
+          <Link href="/">
             <h1 className="block mt-4 lg:inline-block lg:mt-0 text-black hover:text-red-500  mr-4">
               Home
             </h1>
-          </a>
-          <a href="../app/about.js">
+          </Link>
+          <Link href="/about">
             <h1 className="block mt-4 lg:inline-block lg:mt-0  text-black hover:text-red-500  mr-4">
               About
             </h1>
-          </a>
-          <a href="/cfp">
+          </Link>
+          <Link href="/cfp">
             <h1 className="block mt-4 lg:inline-block lg:mt-0  text-black hover:text-red-500  mr-4">
               Call for Papers
             </h1>
-          </a>
-          <a href="/speakers">
+          </Link>
+          <Link href="/speakers">
             <h1 className="block mt-4 lg:inline-block lg:mt-0  text-black hover:text-red-500 mr-4">
               Speakers
             </h1>
-          </a>
-          <a href="/schedule">
+          </Link>
+          <Link href="/schedule">
             <h1 className="block mt-4 lg:inline-block lg:mt-0  text-black hover:text-red-500  mr-4">
               Schedule
             </h1>
-          </a>
-          <a href="/volunteer">
+          </Link>
+          <Link href="/volunteer">
             <h1 className="block mt-4 lg:inline-block lg:mt-0  text-black hover:text-red-500  mr-4">
               Volunteer
             </h1>
-          </a>
-          <a href="/codeofconduct">
+          </Link>
+          <Link href="/codeofconduct">
             <h1 className="block mt-4 lg:inline-block lg:mt-0  text-black hover:text-red-500 ">
               Code of Conduct
             </h1>
-          </a>
+          </Link>
         </div>
       </div>
     </nav>
