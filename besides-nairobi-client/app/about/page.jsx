@@ -1,9 +1,9 @@
 import React from 'react'
 import Head from 'next/head'
 import Image from 'next/image'
-import Sponsor from "../public/assets/shehacks.png"
-import Lawrence from '../public/assets/lawrence.webp'
-import Footer from '../components/footer'
+// import Sponsor from "../../public/assets/shehacks.png"
+import Lawrence from '../../public/assets/lawrence.webp'
+// import Footer from '../../components/footer'
 
 
 function about() {
@@ -21,7 +21,7 @@ function about() {
           <title >Welcome to Bsides Nairobi</title>
         </Head>
         <div className="flex flex-col justify-center items-center h-full">
-          <h1 className="text-4xl font-bold text-white text-center">
+          <h1 className="text-4xl font-bold text-white bg-green-600 rounded text-center">
             Welcome to Bsides Nairobi
           </h1>
         </div>

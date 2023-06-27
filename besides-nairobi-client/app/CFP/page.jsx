@@ -1,5 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
+// import Footer from '../components/footer'
 
 
 function CFP() {
@@ -21,7 +22,7 @@ function CFP() {
             Call For Papers
           </h1>
         </div>
-       <div className='h-[600px] '>
+       <div className='h-[400px] absolute'>
         <h1 className="text-red-500  text-6xl mb-10 mt-16 text-center ">
         2023 Call for Papers
           </h1>
@@ -36,7 +37,7 @@ function CFP() {
           <span className="ml-[520px] text-gray-500  text-[23px] leading-[42px] space-x-4 mb-2 flex tracking-wide">
           
           Notifications will be sent to Applicants: 30 August - 5 September, 2023
-          </span>
+          </span> 
           <button className="bg-green-900 hover:bg-gray-800 text-white font-bold py-3 px-6 rounded ml-[755px] mt-[34px] absolute" >
             <a href="https://www.eventbrite.com/e/bsides-nairobi-2021-tickets-166005001405" className="text-gray-100 text-lg leading-none">
                 Register Now
@@ -44,6 +45,7 @@ function CFP() {
         </button>
        </div>
       </div>
+      
     </div>
   )
 }
