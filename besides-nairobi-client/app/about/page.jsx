@@ -62,7 +62,9 @@ function about() {
         <span className='text-gray-500 text-2xl'>Sponsorship:  info@bsidesnairobi.ke</span>
         </div>
 
-
+        <h1 className="text-red-500  text-6xl mb-10 mt-16 text-center ">
+        Meet our Founders
+      </h1>
         <div class="bg-gray-100 p-8 flex-col space-y-8 h-[800px] absolute w-full">
         <div class="bg-gray-100 p-8 flex-col space-y-8 h-[700px] absolute w-full">
           <div class="w-[500px] flex ml-[150px] mb-10">
