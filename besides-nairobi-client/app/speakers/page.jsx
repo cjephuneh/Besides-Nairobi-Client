@@ -24,14 +24,14 @@ function Speakers() {
       <h1 className="text-red-500  text-6xl mb-10 mt-16 text-center ">
         Want to be involved?
       </h1>
-      <span className="ml-[250px] text-gray-500 text-[23px] leading-[42px] space-x-4 block mb-2  tracking-wide">
+      <span className="text-center text-gray-500 text-[23px] leading-[42px] space-x-4 block mb-2  tracking-wide">
         We are looking for speakers – are you interested? If so, <br />
         <span className="ml-[259px] text-gray-500  text-[23px] leading-[42px] space-x-4 block mb-2  tracking-wide">
           click the button below to submit your papers.
         </span>
       </span>
 
-      <button className="bg-green-900 hover:bg-gray-800 text-white font-bold py-3 px-6 rounded ml-[750px] mt-[34px] absolute">
+      <button className="bg-green-900 hover:bg-gray-800 text-white font-bold py-3 px-6 rounded ml-[700px] mt-[34px] absolute">
         <a href="https://www.eventbrite.com/e/bsides-nairobi-2021-tickets-166005001405" className="text-gray-100 text-lg leading-none">
           Call for papers 
         </a>
