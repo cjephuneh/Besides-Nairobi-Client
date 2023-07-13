@@ -11,6 +11,7 @@ function Home() {
     <>
       <div className="h-screen bg-cover bg-center" style={{ backgroundImage: "url('/assets/nairobi-kenya-skyline-flag-color.png')", height: "50vh" }}>
         <Head>
+          
           <title>Welcome to Bsides Nairobi</title>
         </Head>
         <div className="flex flex-col justify-center items-center h-full">
