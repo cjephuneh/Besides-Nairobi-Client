@@ -21,6 +21,8 @@ function Home() {
         </div>
       </div>
 
+      
+
       <div className="bg-white p-8 mx-4 md:mx-[200px] mt-10">
         <h1 className="text-green-400 font-bold text-5xl mb-10">
           2023 Bsides Nairobi
